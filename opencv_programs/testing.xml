@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='sample_images/image100.jpg'>
+    <box top='153' left='278' width='77' height='91'/>
+  </image>
+  <image file='sample_images/image1000.jpg'>
+    <box top='198' left='346' width='85' height='109'/>
+  </image>
+  <image file='sample_images/image1050.jpg'>
+    <box top='189' left='342' width='87' height='114'/>
+  </image>
+  <image file='sample_images/image200.jpg'>
+    <box top='137' left='293' width='96' height='96'/>
+  </image>
+  <image file='sample_images/image2000.jpg'>
+    <box top='99' left='216' width='121' height='141'/>
+  </image>
+  <image file='sample_images/image2050.jpg'>
+    <box top='178' left='183' width='89' height='107'/>
+  </image>
+</images>
+</dataset>

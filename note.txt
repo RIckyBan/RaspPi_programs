@@ -1,0 +1,29 @@
+・IPアドレスを確認
+ifconfig | grep "inet " | grep -v 127.0.0.1
+
+・ファイルを送信
+scp note.txt pi@192.168.43.124:~/Documents/workspace/
+
+・カメラの起動・撮影
+raspistill -w 1200 -h 800 -vf -o tmp.jpg
+
+・動画の撮影
+raspivid -o tmp.h264
+
+・動画の確認
+scp note.txt pi@192.168.43.124:~/Downloads/
+
+YOLO
+・Yoloの実行
+./darknet detector test cfg/coco.data cfg/yolov2.cfg yolov2.weights ~/Pictures/cars.jpg
+
+
+
+参考リンク
+https://karaage.hatenadiary.jp/entry/2018/01/08/073000
+
+https://qiita.com/miyamotok0105/items/6d2797e4a76ed642178b
+
+http://starpentagon.net/analytics/yolo_v3_on_mac/
+
+http://yagitsawa.github.io/2018/04/07/darknet-with-nnpack/
